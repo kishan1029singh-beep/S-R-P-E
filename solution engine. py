@@ -1,0 +1,17 @@
+def
+suggest_solution(pollution_level):
+    """
+    Suggest smart road actions based on pollution level
+    """
+
+    if pollution_level < 30:
+        return "Traffic Normal"
+
+    elif pollution_level < 60:
+        return "Optimize Traffic Lights"
+
+    elif pollution_level < 100:
+        return "Activate Smart Diversion"
+
+    else:
+        return "Emergency Pollution Control Activated"
