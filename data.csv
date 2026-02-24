@@ -1,0 +1,5 @@
+road_id,vehicle_count,avg_speed,pollution_index
+R1,120,35,72
+R2,80,42,55
+R3,150,25,90
+R4,60,50,40
