@@ -19,6 +19,7 @@ and predicts pollution levels using an AI-inspired decision system.
 - Real-time sensor integration
 - Machine Learning optimization
 - Smart city deployment
+  
 ## Note
 The dataset used in this prototype is a scaled and simplified representation of real-world traffic and pollution conditions, created for modeling and algorithm validation purposes.
 
