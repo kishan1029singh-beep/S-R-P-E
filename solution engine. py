@@ -1,17 +1,12 @@
-def
-suggest_solution(pollution_level):
+def suggest_solution(pollution_index: float) -> str:
     """
-    Suggest smart road actions based on pollution level
+    Simple rule-based suggestions based on pollution index.
+    Adjust thresholds to match your real model/scale.
     """
-
-    if pollution_level < 30:
-        return "Traffic Normal"
-
-    elif pollution_level < 60:
-        return "Optimize Traffic Lights"
-
-    elif pollution_level < 100:
-        return "Activate Smart Diversion"
-
-    else:
-        return "Emergency Pollution Control Activated"
+    if pollution_index >= 100:
+        return "Critical pollution — divert traffic, restrict heavy vehicles, issue public advisory."
+    if pollution_index >= 60:
+        return "High pollution — optimize signal timings, enforce odd-even or restrictions, encourage public transport."
+    if pollution_index >= 30:
+        return "Moderate pollution — adjust timings, promote ride-sharing / public transit."
+    return "Low pollution — normal operation."
